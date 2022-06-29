@@ -9,12 +9,12 @@ import maytag from "./assets/maytag.png";
 const Services = () => {
   return (
     <div
-      id="about"
+      id="services"
       className=" w-full md:h-screen p-2 flex items-center py-16 bg-[#FAC213]"
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-10">
         <div className="col-span-1">
-          <h1 className="uppercase text-5xl tracking-widest">
+          <h1 className="uppercase text-5xl tracking-widest text-center">
             Services we offer:
           </h1>
           <div className="py-2 text-center">
