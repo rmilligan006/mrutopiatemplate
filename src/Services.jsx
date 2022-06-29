@@ -15,7 +15,7 @@ const Services = () => {
       <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-10">
         <div className="col-span-1">
           <h1 className="uppercase text-5xl tracking-widest text-center">
-            Services we offer:
+            Service and repairs on:
           </h1>
           <div className="py-2 text-center">
             <p className="text-3xl uppercase tracking-widest">Washers</p>
