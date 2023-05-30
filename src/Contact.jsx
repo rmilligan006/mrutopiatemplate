@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen flex justify-center items-center p-4 bg-[#FAC213] pt-10"
+      className="w-full h-screen flex justify-center items-center p-4 bg-[#FAC213]"
     >
       <form
         method="POST"
@@ -21,14 +21,22 @@ const Contact = () => {
           </p>
         </div>
         <input
-          className="p-2"
+          className="m-2 p-2"
           type="text"
           placeholder="Name..."
           name="name"
           aria-required
         />
         <input
-          className="my-4 p-2 "
+          className="m-2 p-2"
+          type="tel"
+          placeholder="Phone Number"
+          name="phone"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          aria-required
+        />
+        <input
+          className="m-2 p-2 "
           type="text"
           placeholder="email..."
           name="email"
@@ -37,12 +45,12 @@ const Contact = () => {
         <textarea
           name="message"
           rows="10"
-          className=" p-2"
+          className=" m-2 p-2"
           placeholder="message..."
           required
         ></textarea>
         <button className="text-white border-2 hover:border-yellow-500 ease-in-out duration-300 px-4 py-3 my-8 mx-auto flex items-center">
-          Let's talk!
+          Our trained professionals would love to hear from you!
         </button>
       </form>
     </div>

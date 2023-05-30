@@ -26,7 +26,7 @@ const About = () => {
           </div>
 
           <div className="max-w-[1240px] w-full flex justify-center items-center">
-            <p className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 bg-white text-xl">
+            <p className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-8 my-10 bg-white text-xl">
               Mr. Utopia Appliance Repair is a highly reputable business that
               has been established since 1995. Our certified technician is
               trained to diagnose and repair all major appliances. We are known

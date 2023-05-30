@@ -10,10 +10,10 @@ const Services = () => {
   return (
     <div
       id="services"
-      className=" w-full md:h-screen p-2 flex items-center py-16 bg-[#FAC213]"
+      className=" w-full md:h-screen p-2 flex items-center bg-[#FAC213]"
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-2 gap-10">
-        <div className="col-span-1">
+        <div className="col-span-1 m-auto shadow-xl shadow-gray-500 rounded-xl col-span-2 p-10 bg-[#000] text-white">
           <h1 className="uppercase text-5xl tracking-widest text-center">
             Service and repairs on:
           </h1>
