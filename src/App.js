@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-[#FAC213]">
       <Nav />
       <About />
       <Services />

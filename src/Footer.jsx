@@ -7,7 +7,7 @@ import mrutopia from "./assets/mr.utopia.png";
 
 const Footer = () => {
   return (
-    <div className=" w-full flex justify-center items-center  py-16 bg-black text-white">
+    <div className=" w-full flex justify-center items-center  py-8 bg-black text-white">
       <div className="">
         <div className="flex flex-col justify-center items-center">
           <img src={mrutopia} alt="business logo" className="w-[100px] pt-6" />
