@@ -19,10 +19,17 @@ const About = () => {
               <img src={mrutopia} alt="company logo" className="" />
             </div>
             <br />
-            <div className="pb-4"></div>
-            <p className="uppercase text-xl font-bold tracking-widest text-center">
-              We fix it like we own it!
-            </p>
+            <div className="pb-4">
+              <p className="uppercase text-xl font-bold tracking-widest text-center">
+                We fix it like we own it!
+              </p>
+            </div>
+            <div>
+              <p className="text-3xl text-center bg-red-500">
+                Attention: We will be closed from July 21st to August 8th. Thank
+                you for your understanding.
+              </p>
+            </div>
           </div>
 
           <div className="max-w-[1240px] w-full flex justify-center items-center">
