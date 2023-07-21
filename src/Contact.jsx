@@ -33,7 +33,7 @@ const Contact = () => {
           placeholder="Phone Number"
           name="phone"
           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-          aria-required
+          required
         />
         <input
           className="m-2 p-2 "

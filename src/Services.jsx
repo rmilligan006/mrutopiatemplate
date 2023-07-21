@@ -13,7 +13,7 @@ const Services = () => {
       className=" w-full md:h-screen flex items-center bg-[#FAC213]"
     >
       <div className="max-w-[1240px] md:grid grid-cols-2 gap-10">
-        <div className="p-8 shadow-xl shadow-gray-500 rounded-xl col-span-1 m-10 bg-[#000] text-white">
+        <div className="p-8git shadow-xl shadow-gray-500 rounded-xl col-span-1 m-10 bg-[#000] text-white">
           <h1 className="uppercase text-3xl font-bold tracking-widest text-center">
             Service and repairs on:
           </h1>
