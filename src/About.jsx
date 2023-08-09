@@ -24,12 +24,6 @@ const About = () => {
                 We fix it like we own it!
               </p>
             </div>
-            <div>
-              <p className="text-3xl text-center bg-red-500">
-                Attention: We will be closed from July 21st to August 8th. Thank
-                you for your understanding.
-              </p>
-            </div>
           </div>
 
           <div className="max-w-[1240px] w-full flex justify-center items-center">
