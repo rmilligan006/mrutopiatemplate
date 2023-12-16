@@ -7,6 +7,13 @@ const About = () => {
       <div id="about" className=" w-full flex items-center py-16 bg-[#FAC213]">
         <div className="max-w-[1240px] w-full h-full m-auto grid-span-2">
           <div className="w-full h-full m-auto shadow-xl shadow-gray-500 rounded-xl col-span-2 p-10 bg-[#000] text-white">
+            <div className="flex justify-center items-center bg-red-600 my-10">
+              <p className="font-bold text-center">
+                PLEASE BE ADVISED WE WILL BE CLOSED FROM DEC 23RD TO DEC 26TH
+                AND DEC 30TH AND JAN 1ST. REGULAR HOURS DECEMBER 27TH TO THE
+                29TH. AND OPEN REGULAR HOURS JANUARY 2ND
+              </p>
+            </div>
             <div>
               <h1 className="uppercase text-4xl font-bold tracking-widest text-center">
                 Mr.Utopia
@@ -27,7 +34,7 @@ const About = () => {
           </div>
 
           <div className="max-w-[1240px] w-full flex justify-center items-center">
-            <p className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-8 my-10 bg-white text-xl">
+            <p className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 mx-4 my-10 bg-white text-xl">
               Mr. Utopia Appliance Repair is a highly reputable business that
               has been established since 1995. Our certified technician is
               trained to diagnose and repair all major appliances. We are known

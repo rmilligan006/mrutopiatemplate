@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen flex justify-center items-center px-4 my-12 bg-[#FAC213]"
+      className="w-full h-screen flex justify-center items-center px-4 my-6 bg-[#FAC213]"
     >
       <form
         method="POST"
@@ -30,7 +30,7 @@ const Contact = () => {
         <input
           className="m-2 p-2"
           type="tel"
-          placeholder="Phone Number"
+          placeholder="Phone Number. Ex: 999-888-8877"
           name="phone"
           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
           required
